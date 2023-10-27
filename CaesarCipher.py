@@ -17,7 +17,7 @@ def caesar(text, key, char):
     return text.translate(table)
 
 def decrypt_caesar(text, key, char):
-    # Dekripsi adalah operasi balik, jadi kita hanya melakukan pergeseran ke arah sebaliknya.
+    # Membalikkan kode enkripsi ke awal(Dekripsi)
     return caesar(text, -key, char)
 
 plain_text = "Welcome to Caesar Cipher"
